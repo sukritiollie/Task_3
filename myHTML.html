@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BURPINGTON HOSPITAL</title>
+	<link rel="stylesheet" href="myCss.css"> 
+	<script type= "text/javascript" src="script.js"> </script>
+</head>
+
+
+<body background="img2.jpg">
+	<h1 style="color:yellow">BURPINGTON</h1>
+	<p style="color:black"> Welcome to Burpington,cure your indigestion away!</p>
+
+	<form name="IndigestionApplicants" > 
+		<label> Patient Name:</label> 
+		<input type="text" name="firstname" / > 
+		<label> Email id:</label>
+		<input type="emailid" name="usremail" />
+		<label> Password:</label>
+		<input type="password" name="pwd" /> 
+		<label> Confirm Password:</label>
+		<input type="password" name="pwdconfirm" /> 
+		<label> Problem:</label>
+		<select name="problem">
+            <option value="Burps like a giant Boar">Burps</option>
+            <option value="Farts like a mini atomic bomb">Fart</option>
+            <option value="Stomach rumbles like defused bubble wrap">Rumbling Stomach</option>
+            <option value="Hiccups like a spoilt tape recorder" selected>Hiccup</option>
+        </select>
+
+        <div id="but">
+        <input type="button" value="RegisterPatient" onClick="processIndigestionForm(document.IndigestionApplicants.firstname,document.IndigestionApplicants.pwd,document.IndigestionApplicants.pwdconfirm)"> 
+        </input>
+        </div>
+	</form>
+	
+	<div id="patientform"></div>
+</body>
+</html>

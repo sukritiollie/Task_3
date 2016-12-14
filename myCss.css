@@ -1,0 +1,38 @@
+h1 
+{
+    text-align: center;
+    font-family: "Times New Roman";
+    font-size: 400%;
+    padding: 32px;
+}
+
+body 
+{
+	opacity: 0.9;
+	text-align: center;
+}
+
+
+p
+{
+	text-align: center;
+	font-family: "Times New Roman";
+	font-size: 150%;
+}
+
+
+div patientform
+{
+	text-align: center;
+	font-size: 200%;
+
+}
+
+div but
+{ 
+	text-align: center;
+	font-size: 200%;
+
+}
+
+/* Sorry for the messed up indentation and 0 comments.Will add later Bee :P */
